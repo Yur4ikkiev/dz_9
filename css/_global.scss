@@ -1,0 +1,99 @@
+// VARIABLES
+
+$accent-color: #F13C6E;
+$light: #fff;
+$primary-color: #efefef;
+$dark: black;
+
+// RESET
+
+* {
+margin: 0;
+padding: 0;
+list-style-type: none; //убрать маркеры/точки в списках
+text-decoration: none; //убрать подчёркивания
+font-weight: normal;
+font-family: 'Inter', sans-serif;
+box-sizing: border-box;
+outline: none; //убрать обводку у imputov и лейблов
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 1440px;
+    font-size: 1rem;
+    background-color: $primary-color;
+    color: $dark;
+}
+
+a {
+    color: $dark;
+}
+
+a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.header-registr__button:hover,
+.header-registr__item:hover,
+.header__logo:hover,
+.header-block__button:hover,
+.header-block__link:hover,
+.footer__head-btn:hover,
+.footer-block__btn:hover,
+.footer-about__logo:hover,
+li:hover,
+a:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    font-weight: 600;
+}
+    
+    
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    line-height: 71px;
+    padding-bottom: 9.5%;
+}
+
+h2 {
+    font-size: 3.12rem;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    line-height: 60px;
+}
+
+h3 {
+    font-size: 1.56rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 76px;
+}
+
+h4 {
+    font-size: 1.87rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 76px;
+}
+
+
+h5 {
+    font-size: 4.06rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 75px;
+}
+
+h6 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}

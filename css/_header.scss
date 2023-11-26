@@ -1,0 +1,131 @@
+.header {
+    background-color: $light;
+}
+
+.header__wrap {
+    width: 93%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1.3% 0 1.1% 0;
+}
+
+.header__logo {
+    margin-right: 3.9%;    
+}
+
+.header__nav {
+    display: flex;
+    width: 42%;
+}
+
+.header__nav-wrap {
+    width: 100%;
+}
+.header__item {
+    display: flex;
+}
+
+.header__link {
+    padding: 3.8% 0;
+}
+.header__link a{
+    font-size: 0.92rem;
+}
+
+.header__link:nth-child(1),
+.header__link:nth-child(2) {
+    margin-right: 10.6%;
+}
+
+.header__link:nth-child(3) {
+    margin-right: 8%;
+}
+
+.header__link:nth-child(4) {
+    margin-right: 10%;
+    white-space: nowrap;
+}
+
+.header-registr {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 26.3%;
+    width: 19%;
+}
+
+.header-registr__item{
+    width: 48%;
+    border: 1px solid $dark;;
+    padding: 5% 0;
+    color: $dark;;
+    font-weight: 700;
+}
+
+.header-registr__button {
+    width: 48%;
+    background-color: #FF6336;
+    color: $light;
+    padding: 5.3% 0;
+    border: none;
+    font-weight: 700;
+}
+
+
+.header-block__wrap {
+    border-top: 1px solid #ccc;
+    padding: 8.6% 0 10.2% 5.3%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header-block__text{
+    width: 39.3%;
+}
+
+
+
+.header-block__wrap p {
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+    padding-bottom: 9.7%;
+}
+
+.header-block__item{
+    display: flex;
+    text-align: center;
+    margin-bottom: 5.1%;
+    font-weight: 700;
+}
+
+
+
+.header-block__button {
+    width: 29.6%;
+    background-color: #FF6336;
+    color: white;
+    padding: 1.4% 0;
+    text-align: center;
+    margin-right: 1.9%;
+    border: none;
+    font-weight: 700;
+}
+
+.header-block__link {
+    width: 29.6%;
+    border: 1px solid $dark;
+    padding: 3.4% 0;
+    letter-spacing: 1px;
+}
+
+.header-block__item-text {
+    font-size: 0.92rem;
+    letter-spacing: 0.6px;
+}
+
+.header-block__img {
+    width: 60.7%;
+    padding: 2% 0;
+}

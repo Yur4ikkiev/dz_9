@@ -1,0 +1,10 @@
+@mixin flex($fxd, $jc, $fwr, $wth, $mrn) {
+    display: flex; //расположить блоки в линию
+    align-items: center; //вырвниваются по центру контейнера
+    flex-direction: $fxd; //выравнивание по направлению текста
+    justify-content: $jc; //выравниваются блоки в центре контейнера
+    flex-wrap: $fwr; //переносить строки
+    width: $wth; 
+    margin: $mrn;
+}
+

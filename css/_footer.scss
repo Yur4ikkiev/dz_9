@@ -1,0 +1,158 @@
+.footer__wrap {
+    background-color: $light;
+    padding-bottom: 11.4%;
+}
+
+.footer__head {
+    width: 52%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 11%;
+    padding-bottom: 1%;
+}
+
+.footer__head span {
+    font-size: 1.56rem;
+    text-align: center;
+}
+
+.footer__head-img {
+    width: 71%;
+    margin: 0 auto;
+    padding: 1% 0 2% 0;
+}
+
+.footer__head-btn {
+    width: 13.5%;
+    margin: 0 auto;
+    padding: 1.4%;
+    background-color: #FF6336;
+    text-align: center;
+}
+
+.footer__head-btn a {
+    color: $light;
+}
+
+.footer-block {
+    background-color: #FF9C7D;
+    padding-bottom: 7%;
+}
+
+.footer-block__text {
+    width: 64%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.footer-block__text h5 {
+    padding-bottom: 4%;
+}
+
+.footer-block__text span {
+    letter-spacing: 2px;
+}
+
+.footer-block__btn {
+    margin: 6.5% auto;
+    width: 17.5%;
+    background-color: $dark;
+    text-align: center;
+    padding: 2%;
+}
+
+.footer-block__btn a {
+    color: $light;
+}
+
+.footer-container {
+    background-color: #EEE;
+    width: 93%;
+    margin: 0 auto;
+}
+
+.footer-container__wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 7% 0 0 2%;
+}
+
+.footer-container__block {
+    width: 29%;
+}
+
+.footer-container__block h6 {
+    padding-bottom: 7%;
+}
+
+.footer-container__item {
+    width: 66.5%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5%;
+}
+
+.footer-container__item-head {
+    width: 24%;
+}
+
+.footer-container__item-head span {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.footer-container__item-head ul {
+    margin-top: 10%;
+} 
+
+.footer-container__item-head li {
+    font-size: 0.89rem;
+    padding-bottom: 6%;
+    letter-spacing: 1px;
+} 
+
+.footer-container__block img:nth-child(2) {
+    padding-bottom: 8%;
+}
+
+.footer-container__block p {
+    padding-top: 2%;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 4%;
+}
+
+.footer-container__block a {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.footer-about {
+    width: 90%;
+    margin: 7% auto 0 auto;
+    display:flex;
+    border-top: 1px solid $dark;
+}
+
+.footer-about__wrap {
+    padding: 4% 0 2% 0;
+    display: flex;
+}
+
+.footer-about__logo {
+    margin-right: 3%;
+}
+
+.footer-about__text-wrap {
+    display: flex;
+}
+
+.footer-about__text pre {
+    font-size: 0.75rem;
+}
+
+.footer-about__text:nth-child(2) {
+    margin-left: 165%;
+}
