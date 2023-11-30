@@ -14,7 +14,6 @@ html {
 }
 
 body {
-  width: 1440px;
   font-size: 1rem;
   background-color: #efefef;
   color: black;
@@ -24,24 +23,33 @@ a {
   color: black;
 }
 
+.header__logo:hover,
+.footer-about__logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+li:hover,
 a:hover {
   text-decoration: underline;
-  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.footer-block__btn:hover {
+  background-color: rgb(88, 83, 83);
 }
 
 .header-registr__button:hover,
-.header-registr__item:hover,
-.header__logo:hover,
 .header-block__button:hover,
-.header-block__link:hover,
-.footer__head-btn:hover,
-.footer-block__btn:hover,
-.footer-about__logo:hover,
-li:hover,
-a:hover {
-  transform: scale(1.1);
+.footer__head-btn:hover {
   cursor: pointer;
-  font-weight: 600;
+  background-color: #f0562a;
+}
+
+.header-registr__item,
+.header-block__link:hover {
+  background-color: rgb(223, 210, 210);
+  cursor: pointer;
 }
 
 h1 {
@@ -120,7 +128,7 @@ h6 {
 }
 
 .header__link a {
-  font-size: 0.92rem;
+  font-size: 0.94rem;
 }
 
 .header__link:nth-child(1),
@@ -164,9 +172,11 @@ h6 {
 
 .header-block__wrap {
   border-top: 1px solid #ccc;
-  padding: 8.6% 0 10.2% 5.3%;
+  padding: 8.6% 0 10.2% 0;
+  margin: 0 5%;
   display: flex;
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .header-block__text {
@@ -206,12 +216,11 @@ h6 {
 }
 
 .header-block__item-text {
-  font-size: 0.92rem;
+  font-size: 0.94rem;
   letter-spacing: 0.6px;
 }
 
 .header-block__img {
-  width: 60.7%;
   padding: 2% 0;
 }
 
@@ -367,7 +376,6 @@ h6 {
 }
 
 .main__container {
-  width: 100%;
   margin: -1% 0 13% 0;
   text-align: center;
 }
@@ -535,7 +543,7 @@ h6 {
 }
 
 .footer__wrap {
-  background-color: white;
+  background-color: #fff;
   padding-bottom: 11.4%;
 }
 
@@ -553,7 +561,7 @@ h6 {
 }
 
 .footer__head-img {
-  width: 71%;
+  width: 52%;
   margin: 0 auto;
   padding: 1% 0 2% 0;
 }
@@ -615,7 +623,9 @@ h6 {
 }
 
 .footer-container__block {
-  width: 29%;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-container__block h6 {
@@ -690,5 +700,5 @@ h6 {
 }
 
 .footer-about__text:nth-child(2) {
-  margin-left: 165%;
+  margin-left: 248%;
 }/*# sourceMappingURL=style.css.map */

@@ -23,7 +23,6 @@ html {
 }
 
 body {
-    width: 1440px;
     font-size: 1rem;
     background-color: $primary-color;
     color: $dark;
@@ -33,26 +32,35 @@ a {
     color: $dark;
 }
 
+
+.header__logo:hover,
+.footer-about__logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+li:hover,
 a:hover {
     text-decoration: underline;
-    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer-block__btn:hover {
+    background-color: rgb(88, 83, 83);
 }
 
 .header-registr__button:hover,
-.header-registr__item:hover,
-.header__logo:hover,
 .header-block__button:hover,
-.header-block__link:hover,
-.footer__head-btn:hover,
-.footer-block__btn:hover,
-.footer-about__logo:hover,
-li:hover,
-a:hover {
-    transform: scale(1.1);
+.footer__head-btn:hover {
     cursor: pointer;
-    font-weight: 600;
+    background-color: #f0562a;
 }
-    
+
+.header-registr__item,
+.header-block__link:hover {
+    background-color: rgb(223, 210, 210);
+    cursor: pointer;
+}
     
 
 h1 {

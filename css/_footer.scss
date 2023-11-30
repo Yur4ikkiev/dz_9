@@ -17,7 +17,7 @@
 }
 
 .footer__head-img {
-    width: 71%;
+    width: 52%;
     margin: 0 auto;
     padding: 1% 0 2% 0;
 }
@@ -79,12 +79,15 @@
 }
 
 .footer-container__block {
-    width: 29%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-container__block h6 {
     padding-bottom: 7%;
 }
+
 
 .footer-container__item {
     width: 66.5%;
@@ -154,5 +157,5 @@
 }
 
 .footer-about__text:nth-child(2) {
-    margin-left: 165%;
+    margin-left: 248%;
 }
