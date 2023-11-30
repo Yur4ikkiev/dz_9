@@ -277,7 +277,7 @@
 }
 
 .main-chief__text span {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     padding-bottom: 1.5%;
 }
 
@@ -303,6 +303,12 @@
     border-right: 1px solid $dark;
     letter-spacing: 0.7px;
 }
+
+.main-mostlove__text span{
+    font-weight: 700;
+    
+}
+
 
 .main-mostlove__item {
     width: 27%;

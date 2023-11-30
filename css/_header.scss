@@ -63,13 +63,18 @@
     font-weight: 700;
 }
 
+.header-registr__link {
+    font-weight: 600;
+}
+
 .header-registr__button {
     width: 48%;
     background-color: #FF6336;
     color: $light;
     padding: 5.3% 0;
     border: none;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 
@@ -112,7 +117,9 @@
     text-align: center;
     margin-right: 1.9%;
     border: none;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 1rem;
+
 }
 
 .header-block__link {
@@ -120,6 +127,10 @@
     border: 1px solid $dark;
     padding: 3.4% 0;
     letter-spacing: 1px;
+}
+
+.header-block__link a{
+    font-weight: 600;
 }
 
 .header-block__item-text {

@@ -161,13 +161,18 @@ h6 {
   font-weight: 700;
 }
 
+.header-registr__link {
+  font-weight: 600;
+}
+
 .header-registr__button {
   width: 48%;
   background-color: #FF6336;
   color: #fff;
   padding: 5.3% 0;
   border: none;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .header-block__wrap {
@@ -205,7 +210,8 @@ h6 {
   text-align: center;
   margin-right: 1.9%;
   border: none;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .header-block__link {
@@ -213,6 +219,10 @@ h6 {
   border: 1px solid black;
   padding: 3.4% 0;
   letter-spacing: 1px;
+}
+
+.header-block__link a {
+  font-weight: 600;
 }
 
 .header-block__item-text {
@@ -494,7 +504,7 @@ h6 {
 }
 
 .main-chief__text span {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   padding-bottom: 1.5%;
 }
 
@@ -519,6 +529,10 @@ h6 {
   padding: 2% 0 2% 5%;
   border-right: 1px solid black;
   letter-spacing: 0.7px;
+}
+
+.main-mostlove__text span {
+  font-weight: 700;
 }
 
 .main-mostlove__item {
@@ -596,6 +610,7 @@ h6 {
 
 .footer-block__text span {
   letter-spacing: 2px;
+  font-size: 1.25rem;
 }
 
 .footer-block__btn {
@@ -608,6 +623,8 @@ h6 {
 
 .footer-block__btn a {
   color: #fff;
+  font-size: 1.06rem;
+  font-weight: 600;
 }
 
 .footer-container {
@@ -653,7 +670,7 @@ h6 {
 }
 
 .footer-container__item-head li {
-  font-size: 0.89rem;
+  font-size: 0.95rem;
   padding-bottom: 6%;
   letter-spacing: 1px;
 }
